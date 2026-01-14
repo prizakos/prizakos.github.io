@@ -24,8 +24,8 @@ const Hero = () => {
           Luxury Retreat
         </span>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          Willowbrook
-          <span className="block text-gold">Cottage</span>
+          Shoreline
+          <span className="block text-gold">Oasis</span>
         </h1>
         <p className="font-sans text-cream/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: "0.4s" }}>
           Escape to an enchanting woodland retreat where timeless elegance meets natural serenity. 
