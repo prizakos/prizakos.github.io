@@ -16,21 +16,20 @@ const Hero = () => {
           backgroundImage: `url(${heroImage})`,
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-wood/60 via-wood/40 to-wood/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <span className="inline-block text-gold font-sans text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in">
-          Luxury Retreat
+        <span className="inline-block text-gold font-sans text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in drop-shadow-lg">
+          Woodland Retreat
         </span>
-        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.2s" }}>
+        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream mb-6 leading-tight animate-fade-in drop-shadow-lg" style={{ animationDelay: "0.2s" }}>
           Shoreline
-          <span className="block text-gold">Oasis</span>
+          <span className="block text-gold drop-shadow-lg">Oasis</span>
         </h1>
-        <p className="font-sans text-cream/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          Escape to an enchanting woodland retreat where timeless elegance meets natural serenity. 
-          Your private sanctuary awaits.
+        <p className="font-sans text-cream text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in drop-shadow-md" style={{ animationDelay: "0.4s" }}>
+          Escape to this woodland retreat with effortless access to one of Canada's most beautiful, private sandy beaches.
         </p>
         <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>
           <Button
