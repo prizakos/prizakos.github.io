@@ -9,10 +9,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-2xl text-gold mb-4">Willowbrook Cottage</h3>
+            <h3 className="font-serif text-2xl text-gold mb-4">Shoreline Oasis</h3>
             <p className="font-sans text-cream/70 text-sm leading-relaxed">
-              A luxury woodland retreat in the heart of the Blue Ridge Mountains. 
-              Where timeless elegance meets natural serenity.
+              A luxury coastal retreat where timeless elegance meets ocean serenity.
             </p>
           </div>
 
