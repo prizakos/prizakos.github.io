@@ -4,33 +4,33 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    alt: "Cottage exterior at sunset",
+    src: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    alt: "Beachfront property exterior",
     span: "md:col-span-2 md:row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Cozy living room with fireplace",
+    src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    alt: "Ocean view living room",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Elegant bedroom suite",
+    src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    alt: "Coastal bedroom suite",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Luxurious bathroom",
+    src: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    alt: "Spa-like bathroom",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Gourmet kitchen",
+    src: "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    alt: "Modern coastal kitchen",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    alt: "Private deck with mountain views",
+    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    alt: "Private beach access",
     span: "md:col-span-2",
   },
 ];
@@ -50,7 +50,7 @@ const Gallery = () => {
             Discover Every Corner
           </h2>
           <p className="font-sans text-muted-foreground text-lg max-w-2xl mx-auto">
-            Explore the beauty and comfort that awaits you at Willowbrook Cottage.
+            Explore the beauty and comfort that awaits you at Shoreline Oasis.
           </p>
         </div>
 
