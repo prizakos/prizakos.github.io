@@ -20,9 +20,10 @@ const PropertyOverview = () => {
             A Retreat Like No Other
           </h2>
           <p className="font-sans text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-            Nestled among ancient oaks and overlooking a pristine valley, Willowbrook Cottage 
-            offers an unparalleled escape from the ordinary. Every detail has been carefully 
-            curated to provide the perfect blend of rustic charm and modern luxury.
+            Tucked within the quiet, beautiful forest canopy of Southcott Pines, this exceptional 
+            year-round four-bedroom, three full bathroom home on Shoreline Drive offers the rare 
+            luxury of complete privacy paired with effortless access to one of Canada's most 
+            beautiful, private sandy beaches.
           </p>
         </div>
 
