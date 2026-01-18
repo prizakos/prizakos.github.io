@@ -21,10 +21,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <span className="inline-block text-gold font-sans text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in drop-shadow-lg">
-          Woodland Retreat
-        </span>
-        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream mb-6 leading-tight animate-fade-in drop-shadow-lg" style={{ animationDelay: "0.2s" }}>
+        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream mb-6 leading-tight animate-fade-in drop-shadow-lg">
           Shoreline
           <span className="block text-gold drop-shadow-lg">Oasis</span>
         </h1>
