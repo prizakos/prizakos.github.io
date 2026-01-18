@@ -1,5 +1,6 @@
 import Hero from "@/components/landing/Hero";
 import PropertyOverview from "@/components/landing/PropertyOverview";
+import Highlights from "@/components/landing/Highlights";
 import Gallery from "@/components/landing/Gallery";
 import Amenities from "@/components/landing/Amenities";
 import Location from "@/components/landing/Location";
@@ -12,6 +13,7 @@ const Index = () => {
     <main className="min-h-screen">
       <Hero />
       <PropertyOverview />
+      <Highlights />
       <Gallery />
       <Amenities />
       <Location />
