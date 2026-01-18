@@ -1,8 +1,9 @@
-import { Bed, Users, MapPin, Mountain } from "lucide-react";
+import { Bed, Bath, Users, MapPin, Mountain } from "lucide-react";
 
 const PropertyOverview = () => {
   const highlights = [
     { icon: Bed, label: "4 Bedrooms" },
+    { icon: Bath, label: "3 Bathrooms" },
     { icon: Users, label: "8-10 Guests" },
     { icon: MapPin, label: "Private Landscaped Home" },
     { icon: Mountain, label: "Steps from Private Sandy Beach" },
@@ -28,7 +29,7 @@ const PropertyOverview = () => {
         </div>
 
         {/* Highlights Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8">
           {highlights.map((item, index) => (
             <div
               key={index}
