@@ -2,10 +2,10 @@ import { Bed, Users, MapPin, Mountain } from "lucide-react";
 
 const PropertyOverview = () => {
   const highlights = [
-    { icon: Bed, label: "3 Bedrooms", description: "Luxurious suites" },
-    { icon: Users, label: "6 Guests", description: "Comfortable capacity" },
-    { icon: MapPin, label: "Private Estate", description: "5 secluded acres" },
-    { icon: Mountain, label: "Mountain Views", description: "Panoramic vistas" },
+    { icon: Bed, label: "4 Bedrooms" },
+    { icon: Users, label: "8-10 Guests" },
+    { icon: MapPin, label: "Private Landscaped Home" },
+    { icon: Mountain, label: "Steps from Private Sandy Beach" },
   ];
 
   return (
@@ -37,8 +37,7 @@ const PropertyOverview = () => {
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-secondary mb-4">
                 <item.icon className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="font-serif text-xl text-foreground mb-1">{item.label}</h3>
-              <p className="font-sans text-sm text-muted-foreground">{item.description}</p>
+              <h3 className="font-serif text-lg text-foreground">{item.label}</h3>
             </div>
           ))}
         </div>
