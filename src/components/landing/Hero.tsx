@@ -22,7 +22,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream mb-6 leading-tight animate-fade-in drop-shadow-lg">
-          Shoreline
+          Grand Bend
           <span className="block text-gold drop-shadow-lg">Oasis</span>
         </h1>
         <p className="font-sans text-cream text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in drop-shadow-md" style={{ animationDelay: "0.4s" }}>
