@@ -2,35 +2,61 @@ import { useState } from "react";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
+// Import gallery images
+import livingRoomDeck from "@/assets/gallery/living-room-deck.jpg";
+import entrywayStaircase from "@/assets/gallery/entryway-staircase.jpg";
+import diningRoom from "@/assets/gallery/dining-room.jpg";
+import mudroom from "@/assets/gallery/mudroom.jpg";
+import breakfastNook from "@/assets/gallery/breakfast-nook.jpg";
+import livingFireplace from "@/assets/gallery/living-fireplace.jpg";
+import diningWindow from "@/assets/gallery/dining-window.jpg";
+import kitchenIsland from "@/assets/gallery/kitchen-island.jpg";
+import kitchenCounters from "@/assets/gallery/kitchen-counters.jpg";
+
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    alt: "Beachfront property exterior",
+    src: livingRoomDeck,
+    alt: "Open concept living room with deck access and forest views",
     span: "md:col-span-2 md:row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Ocean view living room",
+    src: entrywayStaircase,
+    alt: "Modern entryway with glass staircase railing",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Coastal bedroom suite",
+    src: diningRoom,
+    alt: "Elegant dining room with chandelier",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Spa-like bathroom",
+    src: mudroom,
+    alt: "Organized mudroom entry with built-in storage",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Modern coastal kitchen",
+    src: breakfastNook,
+    alt: "Cozy breakfast nook with forest view",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-    alt: "Private beach access",
+    src: livingFireplace,
+    alt: "Living room with cozy fireplace in winter",
+    span: "",
+  },
+  {
+    src: diningWindow,
+    alt: "Dining area with built-in window seat",
+    span: "",
+  },
+  {
+    src: kitchenIsland,
+    alt: "Spacious kitchen with center island",
+    span: "md:col-span-2",
+  },
+  {
+    src: kitchenCounters,
+    alt: "Kitchen with granite countertops and modern appliances",
     span: "md:col-span-2",
   },
 ];
