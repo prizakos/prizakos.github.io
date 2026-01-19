@@ -43,15 +43,9 @@ const Gallery = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block text-gold font-sans text-sm tracking-[0.2em] uppercase mb-4">
+          <h2 className="font-serif text-4xl md:text-5xl text-foreground">
             Gallery
-          </span>
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
-            Discover Every Corner
           </h2>
-          <p className="font-sans text-muted-foreground text-lg max-w-2xl mx-auto">
-            Explore the beauty and comfort that awaits you at Shoreline Oasis.
-          </p>
         </div>
 
         {/* Image Grid */}
