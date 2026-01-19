@@ -31,6 +31,11 @@ import beachGoldenSunset from "@/assets/gallery/beach-golden-sunset.jpg";
 import sunsetThroughTrees from "@/assets/gallery/sunset-through-trees.jpg";
 import winterBeach from "@/assets/gallery/winter-beach.jpg";
 import turquoiseWaves from "@/assets/gallery/turquoise-waves.jpg";
+import scenicSunset1 from "@/assets/gallery/scenic-sunset-1.jpg";
+import scenicSunset2 from "@/assets/gallery/scenic-sunset-2.jpg";
+import scenicLakeView from "@/assets/gallery/scenic-lake-view.jpg";
+import scenicCoastal1 from "@/assets/gallery/scenic-coastal-1.jpg";
+import scenicCoastal2 from "@/assets/gallery/scenic-coastal-2.jpg";
 
 const galleryImages = [
   {
@@ -171,6 +176,31 @@ const galleryImages = [
   {
     src: turquoiseWaves,
     alt: "Beautiful turquoise waves on a dramatic day",
+    span: "",
+  },
+  {
+    src: scenicSunset1,
+    alt: "Dramatic sunset over the water",
+    span: "md:col-span-2",
+  },
+  {
+    src: scenicSunset2,
+    alt: "Golden hour sunset with silhouetted trees",
+    span: "",
+  },
+  {
+    src: scenicLakeView,
+    alt: "Serene lake view with surrounding forest",
+    span: "",
+  },
+  {
+    src: scenicCoastal1,
+    alt: "Coastal scenery with ocean waves",
+    span: "",
+  },
+  {
+    src: scenicCoastal2,
+    alt: "Beautiful coastal landscape view",
     span: "",
   },
 ];
