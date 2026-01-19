@@ -12,6 +12,15 @@ import livingFireplace from "@/assets/gallery/living-fireplace.jpg";
 import diningWindow from "@/assets/gallery/dining-window.jpg";
 import kitchenIsland from "@/assets/gallery/kitchen-island.jpg";
 import kitchenCounters from "@/assets/gallery/kitchen-counters.jpg";
+import bedroomDockArt from "@/assets/gallery/bedroom-dock-art.jpg";
+import bedroomIronFrame from "@/assets/gallery/bedroom-iron-frame.jpg";
+import bedroomPatioAccess from "@/assets/gallery/bedroom-patio-access.jpg";
+import masterBedroom from "@/assets/gallery/master-bedroom.jpg";
+import bathroomSoakingTub from "@/assets/gallery/bathroom-soaking-tub.jpg";
+import bathroomVesselSink from "@/assets/gallery/bathroom-vessel-sink.jpg";
+import masterBathroom from "@/assets/gallery/master-bathroom.jpg";
+import bathroomGreen from "@/assets/gallery/bathroom-green.jpg";
+import showerSubwayTile from "@/assets/gallery/shower-subway-tile.jpg";
 
 const galleryImages = [
   {
@@ -58,6 +67,51 @@ const galleryImages = [
     src: kitchenCounters,
     alt: "Kitchen with granite countertops and modern appliances",
     span: "md:col-span-2",
+  },
+  {
+    src: masterBedroom,
+    alt: "Spacious master bedroom with vaulted ceiling and seating area",
+    span: "md:col-span-2",
+  },
+  {
+    src: bedroomDockArt,
+    alt: "Guest bedroom with dock artwork and forest views",
+    span: "",
+  },
+  {
+    src: bedroomIronFrame,
+    alt: "Cozy bedroom with iron bed frame and modern art",
+    span: "",
+  },
+  {
+    src: bedroomPatioAccess,
+    alt: "Bedroom with sliding door patio access",
+    span: "",
+  },
+  {
+    src: bathroomSoakingTub,
+    alt: "Spa bathroom with soaking tub and vessel sink",
+    span: "md:col-span-2",
+  },
+  {
+    src: bathroomVesselSink,
+    alt: "Elegant bathroom with glass vessel sink",
+    span: "",
+  },
+  {
+    src: masterBathroom,
+    alt: "Master bathroom with curved vanity and glass shower",
+    span: "",
+  },
+  {
+    src: bathroomGreen,
+    alt: "Guest bathroom with modern fixtures",
+    span: "",
+  },
+  {
+    src: showerSubwayTile,
+    alt: "Walk-in shower with white subway tile",
+    span: "",
   },
 ];
 
