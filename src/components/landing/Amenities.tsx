@@ -9,10 +9,12 @@ import {
   Tv,
   Wind,
   Sparkles,
+  Bed,
 } from "lucide-react";
 
 const amenities = [
   { icon: Sparkles, label: "High Ceilings" },
+  { icon: Bed, label: "Four Beds (1 King and 3 Queen)" },
   { icon: Wind, label: "Central Air" },
   { icon: Sparkles, label: "Washer Dryer" },
   { icon: Flame, label: "Outdoor Fire Pit" },
