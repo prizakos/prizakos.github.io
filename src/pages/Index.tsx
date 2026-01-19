@@ -4,7 +4,6 @@ import Highlights from "@/components/landing/Highlights";
 import Gallery from "@/components/landing/Gallery";
 import Amenities from "@/components/landing/Amenities";
 import Location from "@/components/landing/Location";
-import Testimonials from "@/components/landing/Testimonials";
 import BookingForm from "@/components/landing/BookingForm";
 import Footer from "@/components/landing/Footer";
 
@@ -17,7 +16,6 @@ const Index = () => {
       <Gallery />
       <Amenities />
       <Location />
-      <Testimonials />
       <BookingForm />
       <Footer />
     </main>
