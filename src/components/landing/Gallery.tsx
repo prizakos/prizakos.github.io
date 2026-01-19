@@ -36,6 +36,12 @@ import scenicSunset2 from "@/assets/gallery/scenic-sunset-2.jpg";
 import scenicLakeView from "@/assets/gallery/scenic-lake-view.jpg";
 import scenicCoastal1 from "@/assets/gallery/scenic-coastal-1.jpg";
 import scenicCoastal2 from "@/assets/gallery/scenic-coastal-2.jpg";
+import beavertailsStorefront from "@/assets/gallery/beavertails-storefront.webp";
+import grandBendMap from "@/assets/gallery/grand-bend-map.webp";
+import huronCountyPlayhouse from "@/assets/gallery/huron-county-playhouse.jpg";
+import lighthouseSunset from "@/assets/gallery/lighthouse-sunset.jpg";
+import pickleballCourts from "@/assets/gallery/pickleball-courts.webp";
+import marinaLighthouse from "@/assets/gallery/marina-lighthouse.webp";
 
 const galleryImages = [
   {
@@ -201,6 +207,36 @@ const galleryImages = [
   {
     src: scenicCoastal2,
     alt: "Beautiful coastal landscape view",
+    span: "",
+  },
+  {
+    src: lighthouseSunset,
+    alt: "Grand Bend lighthouse at sunset with crashing waves",
+    span: "md:col-span-2",
+  },
+  {
+    src: beavertailsStorefront,
+    alt: "BeaverTails pastry shop in Grand Bend",
+    span: "",
+  },
+  {
+    src: grandBendMap,
+    alt: "Map of Grand Bend and Southcott Pines area",
+    span: "",
+  },
+  {
+    src: huronCountyPlayhouse,
+    alt: "Huron County Playhouse theatre",
+    span: "",
+  },
+  {
+    src: pickleballCourts,
+    alt: "Klondyke Sports Park pickleball courts",
+    span: "",
+  },
+  {
+    src: marinaLighthouse,
+    alt: "Grand Bend marina with lighthouse",
     span: "",
   },
 ];
