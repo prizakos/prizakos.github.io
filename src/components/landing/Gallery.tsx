@@ -21,6 +21,16 @@ import bathroomVesselSink from "@/assets/gallery/bathroom-vessel-sink.jpg";
 import masterBathroom from "@/assets/gallery/master-bathroom.jpg";
 import bathroomGreen from "@/assets/gallery/bathroom-green.jpg";
 import showerSubwayTile from "@/assets/gallery/shower-subway-tile.jpg";
+import deckSeatingRed from "@/assets/gallery/deck-seating-red.jpg";
+import backyardFirepit from "@/assets/gallery/backyard-firepit.jpg";
+import forestDriveway from "@/assets/gallery/forest-driveway.jpg";
+import deckWhiteChairs from "@/assets/gallery/deck-white-chairs.jpg";
+import deckLoungeArea from "@/assets/gallery/deck-lounge-area.jpg";
+import beachSunset from "@/assets/gallery/beach-sunset.jpg";
+import beachGoldenSunset from "@/assets/gallery/beach-golden-sunset.jpg";
+import sunsetThroughTrees from "@/assets/gallery/sunset-through-trees.jpg";
+import winterBeach from "@/assets/gallery/winter-beach.jpg";
+import turquoiseWaves from "@/assets/gallery/turquoise-waves.jpg";
 
 const galleryImages = [
   {
@@ -111,6 +121,56 @@ const galleryImages = [
   {
     src: showerSubwayTile,
     alt: "Walk-in shower with white subway tile",
+    span: "",
+  },
+  {
+    src: deckLoungeArea,
+    alt: "Expansive deck with outdoor lounge seating and umbrella",
+    span: "md:col-span-2 md:row-span-2",
+  },
+  {
+    src: deckSeatingRed,
+    alt: "Covered deck with red seating and forest views",
+    span: "",
+  },
+  {
+    src: backyardFirepit,
+    alt: "Backyard fire pit area with Adirondack chairs",
+    span: "",
+  },
+  {
+    src: forestDriveway,
+    alt: "Private tree-lined driveway approach",
+    span: "",
+  },
+  {
+    src: deckWhiteChairs,
+    alt: "Upper deck with modern white chairs",
+    span: "",
+  },
+  {
+    src: beachSunset,
+    alt: "Nearby beach at sunset with golden sky",
+    span: "",
+  },
+  {
+    src: beachGoldenSunset,
+    alt: "Stunning golden sunset on the beach",
+    span: "",
+  },
+  {
+    src: sunsetThroughTrees,
+    alt: "Lake sunset viewed through winter branches",
+    span: "md:col-span-2",
+  },
+  {
+    src: winterBeach,
+    alt: "Winter beach landscape with snow",
+    span: "",
+  },
+  {
+    src: turquoiseWaves,
+    alt: "Beautiful turquoise waves on a dramatic day",
     span: "",
   },
 ];
