@@ -26,6 +26,9 @@ const PropertyOverview = () => {
             luxury of complete privacy paired with effortless access to one of Canada's most 
             beautiful, private sandy beaches.
           </p>
+          <p className="font-sans text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mt-6 font-bold italic">
+            A minimum stay of 30 days is required.
+          </p>
         </div>
 
         {/* Highlights Grid */}
