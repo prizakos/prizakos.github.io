@@ -37,7 +37,7 @@ import scenicLakeView from "@/assets/gallery/scenic-lake-view.jpg";
 import scenicCoastal1 from "@/assets/gallery/scenic-coastal-1.jpg";
 import scenicCoastal2 from "@/assets/gallery/scenic-coastal-2.jpg";
 import beavertailsStorefront from "@/assets/gallery/beavertails-storefront.webp";
-import grandBendMap from "@/assets/gallery/grand-bend-map.webp";
+import grandBendMap from "@/assets/gallery/grand-bend-map-new.png";
 import huronCountyPlayhouse from "@/assets/gallery/huron-county-playhouse.jpg";
 import lighthouseSunset from "@/assets/gallery/lighthouse-sunset.jpg";
 import pickleballCourts from "@/assets/gallery/pickleball-courts.webp";
