@@ -23,7 +23,7 @@ import bathroomGreen from "@/assets/gallery/bathroom-green.jpg";
 import showerSubwayTile from "@/assets/gallery/shower-subway-tile.jpg";
 import deckSeatingRed from "@/assets/gallery/deck-seating-red.jpg";
 import backyardFirepit from "@/assets/gallery/backyard-firepit.jpg";
-import forestDriveway from "@/assets/gallery/forest-driveway.jpg";
+import forestDriveway from "@/assets/hero-property.jpg";
 import deckWhiteChairs from "@/assets/gallery/deck-white-chairs.jpg";
 import deckLoungeArea from "@/assets/gallery/deck-lounge-area.jpg";
 import beachSunset from "@/assets/gallery/beach-sunset.jpg";
@@ -151,7 +151,7 @@ const galleryImages = [
   },
   {
     src: forestDriveway,
-    alt: "Private tree-lined driveway approach",
+    alt: "Property exterior with circular driveway",
     span: "",
   },
   {

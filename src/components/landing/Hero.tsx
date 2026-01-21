@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
-import heroImage from "@/assets/hero-property.jpg";
-import sunsetImage from "@/assets/gallery/beach-sunset-golden.jpg";
+import heroImage from "@/assets/gallery/forest-driveway.jpg";
+import sunsetImage from "@/assets/gallery/hero-sunset-new.jpg";
 
 const Hero = () => {
   const scrollToBooking = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream mb-6 leading-tight animate-fade-in drop-shadow-lg">
           Grand Bend
-          <span className="block text-gold drop-shadow-lg">Oasis</span>
+          <span className="block text-gold drop-shadow-lg">Retreat</span>
         </h1>
         <p className="font-sans text-cream text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in drop-shadow-md" style={{ animationDelay: "0.4s" }}>
           Escape to this woodland retreat with effortless access to one of Canada's most beautiful, private sandy beaches.

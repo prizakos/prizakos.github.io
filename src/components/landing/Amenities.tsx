@@ -19,7 +19,7 @@ const amenities = [
   { icon: Sparkles, label: "Washer Dryer" },
   { icon: Flame, label: "Outdoor Fire Pit" },
   { icon: Wifi, label: "High Speed Internet" },
-  { icon: Tv, label: "Entertainment Area (Large TV, Sectional Sofa & Table Tennis)" },
+  { icon: Tv, label: "Entertainment Area (Large Smart TV, Sectional Sofa, Table Tennis and Board Games)" },
   { icon: Car, label: "Circular Driveway with Two Car Garage" },
   { icon: Flame, label: "Gas Fireplace" },
   { icon: TreePine, label: "Two Decks" },
@@ -27,10 +27,9 @@ const amenities = [
   { icon: UtensilsCrossed, label: "Gas BBQ" },
   { icon: UtensilsCrossed, label: "Fully Stocked Kitchen" },
   { icon: UtensilsCrossed, label: "Two Dining Areas (Seating 6 and 10)" },
-  { icon: Coffee, label: "Board Games" },
   { icon: Waves, label: "Grand Bend Attractions (Golf, Pickleball, Playhouse)" },
   { icon: Sparkles, label: "Grand Bend Fitness Center" },
-  { icon: Waves, label: "Public Beach Pass" },
+  { icon: Waves, label: "Beach Pass" },
 ];
 
 const Amenities = () => {
