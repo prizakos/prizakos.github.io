@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="font-serif text-2xl text-gold mb-4">Shoreline Oasis</h3>
             <p className="font-sans text-cream/70 text-sm leading-relaxed">
-              A luxury coastal retreat where timeless elegance meets ocean serenity.
+              A luxury Lake Huron retreat where elegance meets serenity.
             </p>
           </div>
 
@@ -43,18 +43,18 @@ const Footer = () => {
             <h4 className="font-serif text-lg text-cream mb-4">Contact</h4>
             <div className="space-y-3">
               <a
-                href="mailto:hello@willowbrookcottage.com"
+                href="mailto:grandbend.shoreline@gmail.com"
                 className="flex items-center gap-3 font-sans text-sm text-cream/70 hover:text-gold transition-colors"
               >
                 <Mail className="h-4 w-4" />
-                hello@willowbrookcottage.com
+                grandbend.shoreline@gmail.com
               </a>
               <a
-                href="tel:+15551234567"
+                href="tel:+14163710625"
                 className="flex items-center gap-3 font-sans text-sm text-cream/70 hover:text-gold transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                (416) 371-0625
               </a>
             </div>
 
