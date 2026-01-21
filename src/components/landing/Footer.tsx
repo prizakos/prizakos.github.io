@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-2xl text-gold mb-4">Grand Bend Oasis</h3>
+            <h3 className="font-serif text-2xl text-gold mb-4">Grand Bend Retreat</h3>
             <p className="font-sans text-cream/70 text-sm leading-relaxed">
-              A luxury Lake Huron retreat where elegance meets serenity.
+              An idylic Lake Huron escape
             </p>
           </div>
 
@@ -79,7 +79,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-cream/10 text-center">
           <p className="font-sans text-xs text-cream/50">
-            © 2026 Grand Bend Oasis. All rights reserved.
+            © 2026 Grand Bend Retreat. All rights reserved.
           </p>
         </div>
       </div>

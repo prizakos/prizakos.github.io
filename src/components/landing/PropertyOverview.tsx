@@ -4,7 +4,7 @@ const PropertyOverview = () => {
   const highlights = [
     { icon: Bed, label: "4 Bedrooms" },
     { icon: Bath, label: "3 Bathrooms" },
-    { icon: Users, label: "8-10 Guests" },
+    { icon: Users, label: "8 Guests" },
     { icon: MapPin, label: "Private Landscaped Home" },
     { icon: Mountain, label: "Steps from Private Sandy Beach" },
   ];
