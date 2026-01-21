@@ -18,7 +18,7 @@ const PropertyOverview = () => {
             The Experience
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
-            A Retreat Like No Other
+            A Stay Like No Other
           </h2>
           <p className="font-sans text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
             Tucked within the quiet, beautiful forest canopy of Southcott Pines, this exceptional 

@@ -1,4 +1,4 @@
-import scenicSunset from "@/assets/gallery/scenic-sunset-1.jpg";
+import sunsetImage from "@/assets/gallery/beach-sunset-golden.jpg";
 
 const Location = () => {
   return (
@@ -24,7 +24,7 @@ const Location = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-lg overflow-hidden">
               <img
-                src={scenicSunset}
+                src={sunsetImage}
                 alt="Sunset view from the property"
                 className="w-full h-full object-cover"
               />
