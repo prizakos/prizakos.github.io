@@ -36,11 +36,11 @@ const BookingForm = () => {
               please contact the owner at:
             </p>
             <a 
-              href="tel:5551234567" 
+              href="tel:+14163710625" 
               className="inline-flex items-center gap-3 text-2xl md:text-3xl font-serif text-gold hover:text-gold/80 transition-colors"
             >
               <Phone className="h-6 w-6 md:h-8 md:w-8" />
-              (555) 123-4567
+              (416) 371-0625
             </a>
           </div>
         </div>
