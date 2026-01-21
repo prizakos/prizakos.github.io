@@ -42,10 +42,10 @@ const Highlights = () => {
 
           <p>
             The property has been used by the owner for fourteen years and though it has been rarely made 
-            available to rent, it has commanded strong premium seasonal rates due to location, size and 
+            available to rent, it has commanded strong premium to seasonal rates due to location, size and 
             amenities. It provides an opportunity to try the lifestyle before you commit, as it allows for 
-            full-time or extended seasonal living in Grand Bend - at a cost comparable to peak summer 
-            rental rates alone. Whether you are considering purchasing in the area, planning a longer stay, 
+            full-time or extended seasonal living in Grand Bend - at a cost comparable to just renting it 
+            for the peak summer period. Whether you are considering purchasing in the area, planning a longer stay, 
             or exploring a year-round lake lifestyle, this home allows you to truly live it - not just visit.
           </p>
         </div>

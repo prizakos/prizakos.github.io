@@ -23,8 +23,14 @@ const BookingForm = () => {
               Reservations
             </span>
             <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-8">
-              Book Your Stay
+              Reservations/Rates
             </h2>
+            <p className="font-sans text-muted-foreground text-lg mb-4">
+              Rates will vary by dates and length of stay. A damage deposit of $1,000 will be required. 
+              Rental terms are for a minimum of 30 days. Off-season monthly pricing starts at $3,900/month. 
+              Peak summer months rent at $12,500, a discount of more than 25% to the peak season weekly 
+              rental rate of $3,900 that the property has previously rented for. Flexible discounts for longer stays.
+            </p>
             <p className="font-sans text-muted-foreground text-lg mb-8">
               If you are interested in more information about the property and availability 
               please contact the owner at:

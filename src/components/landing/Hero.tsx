@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import heroImage from "@/assets/hero-property.jpg";
+import sunsetImage from "@/assets/gallery/beach-sunset-golden.jpg";
 
 const Hero = () => {
   const scrollToBooking = () => {
@@ -9,13 +10,18 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-        }}
-      >
+      {/* Background Image Collage */}
+      <div className="absolute inset-0">
+        <div className="absolute inset-0 grid grid-cols-2">
+          <div
+            className="bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url(${heroImage})` }}
+          />
+          <div
+            className="bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url(${sunsetImage})` }}
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
       </div>
 
