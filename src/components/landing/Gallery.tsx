@@ -21,12 +21,21 @@ import bathroomVesselSink from "@/assets/gallery/bathroom-vessel-sink.jpg";
 import masterBathroom from "@/assets/gallery/master-bathroom.jpg";
 import bathroomGreen from "@/assets/gallery/bathroom-green.jpg";
 import showerSubwayTile from "@/assets/gallery/shower-subway-tile.jpg";
+import diningModernStove from "@/assets/gallery/dining-modern-stove.jpg";
+import livingRoomLeather from "@/assets/gallery/living-room-leather.jpg";
+import decorativeCabinet from "@/assets/gallery/decorative-cabinet.jpg";
+import basementRecRoom from "@/assets/gallery/basement-rec-room.jpg";
+import circularShelfDecor from "@/assets/gallery/circular-shelf-decor.jpg";
+import pingPongRoom from "@/assets/gallery/ping-pong-room.jpg";
 import deckSeatingRed from "@/assets/gallery/deck-seating-red.jpg";
 import backyardFirepit from "@/assets/gallery/backyard-firepit.jpg";
 import forestDriveway from "@/assets/hero-property.jpg";
 import deckWhiteChairs from "@/assets/gallery/deck-white-chairs.jpg";
 import deckLoungeArea from "@/assets/gallery/deck-lounge-area.jpg";
 import beachSunset from "@/assets/gallery/beach-sunset.jpg";
+import sunsetOrangeHorizon from "@/assets/gallery/sunset-orange-horizon.jpg";
+import twilightAuroraBeach from "@/assets/gallery/twilight-aurora-beach.jpg";
+import sunsetOrangeWaves from "@/assets/gallery/sunset-orange-waves.jpg";
 import beachGoldenSunset from "@/assets/gallery/beach-golden-sunset.jpg";
 import sunsetThroughTrees from "@/assets/gallery/sunset-through-trees.jpg";
 import winterBeach from "@/assets/gallery/winter-beach.jpg";
@@ -135,6 +144,36 @@ const galleryImages = [
     span: "",
   },
   {
+    src: diningModernStove,
+    alt: "Dining area with modern wood stove and bay windows",
+    span: "md:col-span-2",
+  },
+  {
+    src: livingRoomLeather,
+    alt: "Spacious living room with leather sectional and ceiling fan",
+    span: "md:col-span-2",
+  },
+  {
+    src: decorativeCabinet,
+    alt: "Decorative carved cabinet with rope mirror",
+    span: "",
+  },
+  {
+    src: basementRecRoom,
+    alt: "Basement rec room with large TV and sectional sofa",
+    span: "md:col-span-2",
+  },
+  {
+    src: circularShelfDecor,
+    alt: "Circular wall shelf with plants and artwork",
+    span: "",
+  },
+  {
+    src: pingPongRoom,
+    alt: "Game room with ping pong table",
+    span: "md:col-span-2",
+  },
+  {
     src: deckLoungeArea,
     alt: "Expansive deck with outdoor lounge seating and umbrella",
     span: "md:col-span-2 md:row-span-2",
@@ -162,6 +201,21 @@ const galleryImages = [
   {
     src: beachSunset,
     alt: "Nearby beach at sunset with golden sky",
+    span: "",
+  },
+  {
+    src: sunsetOrangeHorizon,
+    alt: "Stunning orange sunset over the lake horizon",
+    span: "",
+  },
+  {
+    src: twilightAuroraBeach,
+    alt: "Magical twilight sky with aurora over the beach",
+    span: "md:col-span-2",
+  },
+  {
+    src: sunsetOrangeWaves,
+    alt: "Vibrant orange sunset reflecting on waves",
     span: "",
   },
   {
