@@ -15,6 +15,8 @@ import kitchenCounters from "@/assets/gallery/kitchen-counters.jpg";
 import bedroomDockArt from "@/assets/gallery/bedroom-dock-art.jpg";
 import bedroomIronFrame from "@/assets/gallery/bedroom-iron-frame.jpg";
 import bedroomPatioAccess from "@/assets/gallery/bedroom-patio-access.jpg";
+import bedroomGrayCamera from "@/assets/gallery/bedroom-gray-camera.jpg";
+import bedroomColorfulArt from "@/assets/gallery/bedroom-colorful-art.jpg";
 import masterBedroomBlue from "@/assets/gallery/master-bedroom-blue.jpg";
 import masterBedroomTv from "@/assets/gallery/master-bedroom-tv.jpg";
 import bathroomSoakingTub from "@/assets/gallery/bathroom-soaking-tub.jpg";
@@ -122,6 +124,16 @@ const galleryImages = [
   {
     src: bedroomPatioAccess,
     alt: "Bedroom with sliding door patio access",
+    span: "",
+  },
+  {
+    src: bedroomGrayCamera,
+    alt: "Gray bedroom with camera artwork and decorative cabinet",
+    span: "",
+  },
+  {
+    src: bedroomColorfulArt,
+    alt: "Bedroom with colorful abstract art and patio access",
     span: "",
   },
   {
