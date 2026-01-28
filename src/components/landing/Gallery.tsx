@@ -15,7 +15,8 @@ import kitchenCounters from "@/assets/gallery/kitchen-counters.jpg";
 import bedroomDockArt from "@/assets/gallery/bedroom-dock-art.jpg";
 import bedroomIronFrame from "@/assets/gallery/bedroom-iron-frame.jpg";
 import bedroomPatioAccess from "@/assets/gallery/bedroom-patio-access.jpg";
-import masterBedroom from "@/assets/gallery/master-bedroom.jpg";
+import masterBedroomBlue from "@/assets/gallery/master-bedroom-blue.jpg";
+import masterBedroomTv from "@/assets/gallery/master-bedroom-tv.jpg";
 import bathroomSoakingTub from "@/assets/gallery/bathroom-soaking-tub.jpg";
 import bathroomVesselSink from "@/assets/gallery/bathroom-vessel-sink.jpg";
 import masterBathroom from "@/assets/gallery/master-bathroom.jpg";
@@ -99,9 +100,14 @@ const galleryImages = [
     span: "md:col-span-2",
   },
   {
-    src: masterBedroom,
-    alt: "Spacious master bedroom with vaulted ceiling and seating area",
-    span: "md:col-span-2",
+    src: masterBedroomBlue,
+    alt: "Master bedroom with blue bedding and vaulted ceiling",
+    span: "",
+  },
+  {
+    src: masterBedroomTv,
+    alt: "Master bedroom with wall-mounted TV and barn door",
+    span: "",
   },
   {
     src: bedroomDockArt,
